@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    padding-top:1rem;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:center;
+  
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+}
+
+.xyz{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+
+input{
+
+    border: none;
+}
+
+.pd-1 a{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.class{
+    display: flex;
+    overflow-x: scroll;
+
+}
+
+.left{
+    width: 40%;
+}
+
+.box-continer{
+    display: flex;
+    border-radius: 50%;
+}
+
+.title img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    
+}
+
+
+.right{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+   
+    
+   
+}
+
+.title-1 img{
+
+     height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+
+}
+
+.title-1{
+    display: flex;
+    
+}
+
+.side-bar{
+    display: flex;
+    margin: 10px 0 ;
+   width: 100%;
+   justify-content: space-evenly;
+    align-items: center;
+}
+
+.side1{
+    display: flex;
+    justify-content: space-evenly;
+}
+  
+.card{
+    display: flex;
+    margin-top: 30px;
+  
+
+}
+
+.parant button{
+    outline: none;
+    border: none;
+    background-color: none;
+}
+
+.FT{
+    margin: 10px;
+}
+
+.card-title{
+  
+    display: flex;
+   align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-title span{
+    margin-left: 290px;
+}
+
+.card2{
+    margin-left: 10px;
+}
+.card1 img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;    
+}
+.card4{
+    display: flex;
+   flex-direction: column;
+   
+}
+
+.parant{
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
